@@ -1,0 +1,104 @@
+
+/* Reset doc */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+html{
+    height: 95vh; /*vh representa altura da viewport*/
+    font-size: 15px;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #f8e0e8, #f8dfe7, #f7dee6, #f7dce5, #f6dbe4);
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1px 20px;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.degrade{
+    background: linear-gradient(to right, #C77D9E, #7D2B41);
+    box-shadow: 1.3px 1.5px 0 black;
+}
+
+header.logo{
+    text-align: center;
+    margin-bottom: 35px;   
+}
+
+header.logo h1{
+    color: #7D2B41;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header.logo img{
+    max-width: 190px;
+    margin-bottom: 10px;
+    border-radius: 180px;
+    border: 2px solid #7D2B41;
+    box-shadow: 0 0 15px #7D2B41; 
+}
+
+h1 span#crefito{
+  font-size:14px ;  
+}
+
+/* ESTILO DOS BOTÕES */
+
+section.btlink{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px; 
+}
+
+a.link button{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 0 0 10px black;
+    cursor: pointer;
+    color: #fff;
+    transition: .2s;
+}
+
+a.link i{
+    font-size: 1.3em;
+}
+
+a.link button:hover{
+    transform: scale(1.2);
+}
+
+footer{
+    text-align: center;
+    margin-top: 4rem;
+    background-color: #4b4848;
+    opacity: 0.5;
+    padding: 8px 20px;
+    max-width: 100%;
+}
