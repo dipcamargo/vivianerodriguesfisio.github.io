@@ -56,8 +56,8 @@
                     </button>
                 </a>
 
-                <a href="#" target="_blank" class="link">
-                    <button class="degrade">
+               <a href="#"  class="link">
+                    <button onclick="abrirAlerta()"  class="degrade">
                         <span> Site </span>
                         <i class="bi bi-globe"></i>
                     </button>
@@ -95,4 +95,10 @@
         </div>
 
     </body>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        function abrirAlerta(){
+            swal("Obrigada pela visita!", "...O site está em construção!");
+        }
+    </script>
 </html>
